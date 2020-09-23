@@ -71,3 +71,11 @@ footer{
     width: 100%;
     text-align: center;
 }
+.fa-facebook{
+    background: #1066e6;
+    color: white;
+    position: ablolute;
+    right: 50%;
+    left: 50%;
+    top: 25%;
+}
