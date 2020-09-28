@@ -17,7 +17,7 @@ header img{
 
 }
 nav{
-    background-color: black;
+    background-color: blanchedalmond;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -25,8 +25,6 @@ nav{
     top: 0px;
     text-emphasis-style: unset;
     z-index: 2;
-    font-size: 20px;
-    letter-spacing: 4px;
 }
 .logo img{
     float: left;
@@ -51,69 +49,30 @@ nav li a:visited{
 nav li a:hover{
     color: burlywood;
     background-color: aqua;
-    transition: 2s;
 }
 
-
-aside{
-    height: 300px;
-    width: 100%;
-    text-align: center;
-}    
-
-
-.stars{
-    float: center;
-    height: 300px;
-    width: 100%;
+body{
+    background-color: #66C88F;
 }
-
-.PEship{
-    z-index: 1;
-    height: 200px;
-    float: center;
-    position: relative;
-    bottom: 250px;
-}
-
-section{
-    background-color: cadetblue;
-    height: 50%;
-    width: 100%;
-    text-align: center; 
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    height: 100%;
-
-}
-  
-.row::after{
-    display: table;
-    clear: both;
-}
-
-section img{
-    height: 300px;
-}
-
 article{
-    background-color: darkcyan;
-    height: 50%;
+    height: 80%;
     width: 100%;
+    position: relative;
+    float: center;
+    box-align: center;
     text-align: center;
 }
+
 footer{
-    background-color: #ff0066;
+    float: bottom;
+    background-color: #1066e6;
     height: 100px;
     width: 100%;
     text-align: center;
-    position: relative;
+    position: static;
 }
 
-.fab-facebook{
+.fa-facebook{
     background: #1066e6;
     color: white;
     right: 50%;
@@ -122,6 +81,7 @@ footer{
 }
 
 footer li{
+    display: -moz-inline-stack; 
     list-style: none;
 }
 
