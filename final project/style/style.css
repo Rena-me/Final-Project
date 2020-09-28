@@ -7,7 +7,7 @@ body{
 }
 header{
     background-color: #66C88F;
-    height: 150px;
+    height: 100px;
     width: 100%;
     text-align: center;
 }
@@ -24,6 +24,14 @@ nav{
     position: sticky;
     top: 0px;
     padding: 5px;
+    z-index: 2;
+}
+.logo img{
+    float: left;
+    align:left;
+    height:50px;
+    widows: 5px;%;
+
 }
 
 nav li{
@@ -45,25 +53,34 @@ nav li a:hover{
     background-color: aqua;
 }
 
+
+aside{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}    
+.stars{
+    float: center;
+    height: 300px;
+    width: 100%;
+}
+
+.PEship{
+    z-index: 1;
+    height: 200px;
+    float: center;
+    position: relative;
+    bottom: 200px;
+}
+
 section{
     background-color: cadetblue;
     height: 50%;
     width: 50%;
     text-align: left;   
-    border: 6px inset #ffffcc;
 }
-aside{
-    background-color: #cccccc;
-    height: 100%;
-    width: 50%;
-    text-align: center;
-    float: right;
-}    
-aside img{
-    float: center;
-    height: 300px;
-    width: 300px;
-}
+
+
 article{
     background-color: darkcyan;
     height: 50%;
