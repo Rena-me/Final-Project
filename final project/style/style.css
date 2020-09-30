@@ -76,7 +76,7 @@ aside{
     z-index: 1;
     height: 200px;
     float: center;
-    position: relative;
+    position: relative ;
     bottom: 250px;
 }
 

@@ -1,5 +1,4 @@
 body{
-    background-image: url("img/bender-intro2.png");
     height: 100%;
     width: 100%;
     margin: 0;
@@ -7,61 +6,54 @@ body{
     border: 0;
 }
 header{
-    background-color: cadetblue;
-    height: 50px;
+    background-color: #66C88F;
+    height: 100px;
     width: 100%;
     text-align: center;
+}
+header img{
+    float:center;
+    height: 100%;
+
 }
 nav{
-    background-color: blanchedalmond;
+    background-color: black;
     height: 50px;
     width: 100%;
-    text-align: left;
-    position: fixed;
-}
-.nav{
-    background: #5cd65c;
-    height: 30px;
     text-align: center;
+    position: sticky;
+    top: 0px;
+    text-emphasis-style: unset;
+    z-index: 2;
+    font-size: 20px;
+    letter-spacing: 4px;
 }
-.nav li{
-    display: inline-block;
-    list-style:none;
-    height: 30px;
-    line-height: 0 px;
-    padding:0 20px;
+.logo img{
+    float: left;
+    box-align:left;
+    height:50px;
 }
-.nav li:hover{
-   background-color: #66c2ff;
-   transition: background .5s;
-}
-.nav-link {
-    color:#008080;
-    text-decoration:none;
 
-section{
-    background-color: cadetblue;
-    height: 50%;
-    width: 50%;
-    text-align: left;   
-    border: 6px inset #ffffcc;
+nav li{
+    display: inline;
+    list-style: none;
 }
-aside{
-    background-color: crimson;
-    height: 100%;
-    width: 50%;
-    text-align: right;
-    float:right
+
+nav li a:link{
+    color: #ffffff;
+    text-decoration: none;
 }
-article{
-    background-color: darkcyan;
-    height: 50%;
-    width: 50%;
-    text-align: center;
+
+nav li a:visited{
+    color: forestgreen;
 }
-footer{
-    background-color: blue;
-    height: 50px;
-    width: 100%;
-    text-align: center;
+
+nav li a:hover{
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px #08ac46d3;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+   
 }
