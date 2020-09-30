@@ -64,7 +64,7 @@ aside{
 
 .stars{
     float: center;
-    height: 300px;
+    height: 320px;
     width: 100%;
 }
 
@@ -78,7 +78,7 @@ aside{
 
 section{
     background-color: cadetblue;
-    height: 50%;
+    height: 51%;
     width: 100%;
     text-align: center; 
 }
