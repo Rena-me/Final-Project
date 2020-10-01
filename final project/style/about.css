@@ -57,8 +57,6 @@ nav li a:hover{
         color: rgb(121, 16, 37);
 }
 
-
-
 .banner{
     height: 300px;
     width: 100%;
@@ -73,10 +71,10 @@ nav li a:hover{
 
 .PEship{
     z-index: 1;
-    height: 200px;
+    height: 150px;
     float: center;
     position: relative ;
-    bottom: 250px;
+    bottom: 300px;
 }
 
 
@@ -85,7 +83,7 @@ article{
     height: 55%;
     width: 100%;
     text-align: center; 
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .column1{
@@ -125,7 +123,10 @@ article img{
     width: 100%;
     text-align: center; 
 }
-
+.CE{
+    background-color: cadetblue;
+    font-size: 30px;
+}
 .box{
     height: 125px;
     width: 125px;
@@ -135,7 +136,10 @@ article img{
     float: left;
     
   }
-
+.hidden{
+    visibility: hidden;
+    width: 200px;
+}
  .box img{
     height: 125px;
     width: 125px;
