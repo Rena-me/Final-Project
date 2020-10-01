@@ -17,7 +17,8 @@ header img{
 
 }
 nav{
-    background-color: blanchedalmond;
+    font-family: 'Bangers', cursive;
+    background-color: black;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -25,6 +26,8 @@ nav{
     top: 0px;
     text-emphasis-style: unset;
     z-index: 2;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
 .logo img{
     float: left;
@@ -47,13 +50,21 @@ nav li a:visited{
 }
 
 nav li a:hover{
-    color: burlywood;
-    background-color: aqua;
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        color: rgb(121, 16, 37);
 }
 
+
 body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
     background-color: #66C88F;
 }
+
 article{
     height: 80%;
     width: 100%;

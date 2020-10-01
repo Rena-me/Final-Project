@@ -16,6 +16,7 @@ header img{
     height: 100%;
 
 }
+
 nav{
     background-color: black;
     height: 50px;
@@ -28,6 +29,7 @@ nav{
     font-size: 30px;
     letter-spacing: 4px;
 }
+
 .logo img{
     float: left;
     box-align:left;
@@ -35,6 +37,7 @@ nav{
 }
 
 nav li{
+    font-family: 'Bangers', cursive;
     display: inline;
     list-style: none;
 }
@@ -56,39 +59,94 @@ nav li a:hover{
 }
 
 
-body{
-    background-color: #66C88F;
-}
 
 aside{
     float: right;
+    height: 300px;
+    width: 100%;
     text-align: center;
-    height: 50%;
-    width: 30%;
+    position: relative;
+    
+}    
+
+.stars{
+    float: center;
+    height: 320px;
+    width: 100%;
 }
 
-aside img{
-    height: 100px;
-    width: 80px;
-    align: center;
+.PEship{
+    z-index: 1;
+    height: 200px;
+    float: center;
+    position: relative ;
+    bottom: 250px;
+}
 
+section{
+    background-color: cadetblue;
+    height: 60%;
+    width: 100%;
+    text-align: center; 
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+
+}
+  
+.row:after{
+    display: table;
+    clear: both;
+}
+
+section img{
+    height: 250px;
 }
 
 article{
-    float: left;
+    background-color: darkcyan;
+    height: 60%;
+    width: 100%;
     text-align: center;
+    float: center;
+    position: relative;
 }
 
+.column2{
+    float: left;
+    width: 43%;
+    padding: 50px;
+    height: 300px;
+}
+
+.column3{
+    float: right;
+    width: 43%;
+    padding: 0px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+
+.row2:after{
+    display: table;
+    clear: both;
+}
+
+
 footer{
-    float: bottom;
-    background-color: #1066e6;
+    background-color: #ff0066;
     height: 100px;
     width: 100%;
     text-align: center;
-    position: static;
+    position: relative;
 }
 
-.fa-facebook{
+.fab-facebook{
     background: #1066e6;
     color: white;
     right: 50%;
@@ -97,7 +155,6 @@ footer{
 }
 
 footer li{
-    display: -moz-inline-stack; 
     list-style: none;
 }
 
