@@ -14,8 +14,8 @@ header{
 header img{
     float:center;
     height: 100%;
-
 }
+
 
 nav{
     background-color: black;
@@ -29,7 +29,6 @@ nav{
     font-size: 30px;
     letter-spacing: 4px;
 }
-
 .logo img{
     float: left;
     box-align:left;
@@ -59,77 +58,105 @@ nav li a:hover{
 }
 
 
-aside{
-    float: right;
-    height: 50%;
+
+.banner{
+    height: 300px;
     width: 100%;
     text-align: center;
-    position: relative;
-    
 }    
 
+.stars{
+    float: center;
+    height: 320px;
+    width: 100%;
+}
 
-section{
+.PEship{
+    z-index: 1;
+    height: 200px;
+    float: center;
+    position: relative ;
+    bottom: 250px;
+}
+
+
+article{
+    background-color: cadetblue;
+    height: 55%;
+    width: 100%;
+    text-align: center; 
+    padding: 30px;
+}
+
+.column1{
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: left;
+    margin-left: 230px;
+}
+
+.column2{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.row:after{
+    display: table;
+    clear: both;
+}
+
+article img{
+    height: 300px;
+}
+
+.row2:after{
+    display: table;
+    clear: both;
+}
+.employees{
+    height: 50%;
+    width: 100%;
+    margin: 0px;
+}
+.outer{
     background-color: cadetblue;
     height: 60%;
     width: 100%;
     text-align: center; 
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    height: 100%;
-
-}
-  
-.row:after{
-    display: table;
-    clear: both;
-}
-
-section img{
-    height: 250px;
-}
-
-article{
-    background-color: darkcyan;
-    height: 60%;
-    width: 100%;
-    text-align: center;
-    float: center;
+.box{
+    height: 125px;
+    width: 125px;
+    margin: 10px; 
+    border: 6px inset #ffffcc;
     position: relative;
-}
-
-.column2{
     float: left;
-    width: 43%;
+    
+  }
+
+ .box img{
+    height: 125px;
+    width: 125px;
+ }
+
+ .location{
+    background-color: khaki;
+    height: 300px;
+    width: 100%;
+    position: relative;
     padding: 50px;
-    height: 300px;
-}
-
-.column3{
-    float: right;
-    width: 43%;
-    padding: 0px;
-    height: 300px;
-    margin-top: 50px;
 
 }
 
-
-.row2:after{
-    display: table;
-    clear: both;
-}
-
-
-footer{
-    background-color: #ff0066;
+  footer{
+    float: bottom;
+    background-color: #1066e6;
     height: 100px;
     width: 100%;
     text-align: center;
-    position: relative;
+    position: static;
 }
 
 .fab-facebook{

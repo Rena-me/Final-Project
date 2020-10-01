@@ -14,8 +14,9 @@ header{
 header img{
     float:center;
     height: 100%;
-
 }
+
+
 nav{
     background-color: black;
     height: 50px;
@@ -57,30 +58,91 @@ nav li a:hover{
 }
 
 
-body{
-    background-color: #66C88F;
+
+.banner{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}    
+
+.stars{
+    float: center;
+    height: 320px;
+    width: 100%;
 }
 
-aside{
+.PEship{
+    z-index: 1;
+    height: 200px;
+    float: center;
+    position: relative ;
+    bottom: 250px;
+}
+
+
+.column1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .column1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.column2{
     float: right;
-    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.row:after{
+    display: table;
+    clear: both;
+}
+
+article img{
+    height: 300px;
+}
+
+.row2:after{
+    display: table;
+    clear: both;
+}
+.employees{
     height: 50%;
-    width: 30%;
+    width: 100%;
+    margin: 0px;
 }
 
-aside img{
-    height: 100px;
-    width: 80px;
-    align: center;
-
-}
-
-article{
-    float: left;
-    text-align: center;
-}
-
-footer{
+  footer{
     float: bottom;
     background-color: #1066e6;
     height: 100px;
@@ -89,7 +151,7 @@ footer{
     position: static;
 }
 
-.fa-facebook{
+.fab-facebook{
     background: #1066e6;
     color: white;
     right: 50%;
@@ -98,7 +160,6 @@ footer{
 }
 
 footer li{
-    display: -moz-inline-stack; 
     list-style: none;
 }
 
