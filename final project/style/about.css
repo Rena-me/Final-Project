@@ -79,7 +79,7 @@ nav li a:hover{
 
 
 article{
-    background-color: cadetblue;
+    background: linear-gradient(to top, #FFFFFf 0%, rgb(182, 182, 182) 100%);
     height: 55%;
     width: 100%;
     text-align: center; 
@@ -99,6 +99,11 @@ article{
     width: 50%;
     height: 100%;
 }
+
+.column2 img{
+    border: 6px inset #ffffcc;
+}
+
 .row:after{
     display: table;
     clear: both;
@@ -113,18 +118,17 @@ article img{
     clear: both;
 }
 .employees{
+    background: linear-gradient(to bottom, #FFFFFf 0%, rgb(182, 182, 182) 100%);
     height: 50%;
     width: 100%;
     margin: 0px;
 }
 .outer{
-    background-color: cadetblue;
-    height: 60%;
+    height: 90%;
     width: 100%;
     text-align: center; 
 }
 .CE{
-    background-color: cadetblue;
     font-size: 30px;
 }
 .box{
@@ -147,16 +151,16 @@ article img{
  }
 
 
-  footer{
-    float: bottom;
-    background-color: #1066e6;
+ footer{
+    background-color: black;
     height: 100px;
     width: 100%;
     text-align: center;
-    position: static;
+    position: relative;
+    
 }
 
-.fab-facebook{
+.fa-facebook{
     background: #1066e6;
     color: white;
     right: 50%;
@@ -169,12 +173,12 @@ footer li{
 }
 
 footer li a:link{
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer li a:visited{
-    color: grey;
+    color: #0fc718;
 }
 
 footer li a:hover{

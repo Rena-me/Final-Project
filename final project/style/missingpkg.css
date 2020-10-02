@@ -66,21 +66,19 @@ body{
 }
 
 article{
-    height: 80%;
+    height: 100%;
     width: 100%;
     position: relative;
     float: center;
     box-align: center;
     text-align: center;
 }
-
 footer{
-    float: bottom;
-    background-color: #1066e6;
+    background-color: black;
     height: 100px;
     width: 100%;
     text-align: center;
-    position: static;
+    position: relative;
 }
 
 .fa-facebook{
@@ -92,20 +90,20 @@ footer{
 }
 
 footer li{
-    display: -moz-inline-stack; 
     list-style: none;
 }
 
 footer li a:link{
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer li a:visited{
-    color: grey;
+    color: #0fc718;
 }
 
 footer li a:hover{
     color: blue;
     background-color: aqua;
+    transition: 2s;
 }
