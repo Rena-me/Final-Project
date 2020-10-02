@@ -1,0 +1,109 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    background-color: #66C88F;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+header img{
+    float:center;
+    height: 100%;
+
+}
+nav{
+    font-family: 'Bangers', cursive;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    text-emphasis-style: unset;
+    z-index: 2;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.logo img{
+    float: left;
+    box-align:left;
+    height:50px;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav li a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:visited{
+    color: forestgreen;
+}
+
+nav li a:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        color: rgb(121, 16, 37);
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color: #66C88F;
+}
+
+article{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: center;
+    box-align: center;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.fa-facebook{
+    background: #1066e6;
+    color: white;
+    right: 50%;
+    left: 50%;
+    top: 25%;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer li a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li a:visited{
+    color: #0fc718;
+}
+
+footer li a:hover{
+    color: blue;
+    background-color: aqua;
+    transition: 2s;
+}
